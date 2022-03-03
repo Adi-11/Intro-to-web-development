@@ -1,0 +1,43 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+#home,
+#clubs,
+#events,
+#contact {
+  min-height: 100vh;
+  width: 100%;
+}
+
+#home {
+  position: relative;
+  background: url("./images/background.webp");
+  background-size: cover;
+}
+
+#home {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+
+h1 {
+  margin: 0;
+}
+
+#clubs {
+  background: yellowgreen;
+}
+
+#contact {
+  background-color: teal;
+}
+
+table td {
+  padding: 5px;
+}
