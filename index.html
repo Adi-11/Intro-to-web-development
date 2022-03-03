@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Intro to HTML and CSS</title>
+</head>
+
+<body>
+    <div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#clubs">Clubs</a>
+            <a href="#events">Events</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <main>
+            <section id="home">
+                <div>
+                    <h1>Geekonix</h1>
+                </div>
+
+                <h2>Introduction to HTML and CSS</h2>
+
+                <div class="description">
+                    <h2>Curbrain</h2>
+                    <p>The official coding club of Geekonix. CUrBrain is the ideal community for code enthusiasts to
+                        showcase their aptitude in coding.</p>
+                </div>
+
+                <img src="./images/geekonix.png" alt="" width="200" height="200" />
+            </section>
+
+            <section id="clubs">
+                <h1>Clubs</h1>
+                <ol>
+                    <li>
+                        <h3>Curbrain</h3>
+                    </li>
+                    <li>CIIC</li>
+                </ol>
+
+                <h2 style="margin-top: 20px;">Members</h2>
+                <ul>
+                    <li>Shubham ...</li>
+                    <li>Simran ...</li>
+                    <li>Aditya ...</li>
+                    <li>...</li>
+                </ul>
+            </section>
+
+            <section id="events">
+                <h1>Events</h1>
+
+                <table>
+                    <tr>
+                        <th>Event name</th>
+                        <th>Date</th>
+                        <th>Day</th>
+                    </tr>
+                    <tr>
+                        <td>Introduction to HTML and CSS</td>
+                        <td>6th March 2022</td>
+                        <td>Sunday</td>
+                    </tr>
+                    <tr>
+                        <td>MERN Stack</td>
+                        <td>--</td>
+                        <td>--</td>
+                    </tr>
+                    <tr>
+                        <td>Intra</td>
+                        <td>--</td>
+                        <td>--</td>
+                    </tr>
+                    <tr>
+                        <td>Edge</td>
+                        <td>--</td>
+                        <td>--</td>
+                    </tr>
+                </table>
+            </section>
+            <section id="contact">
+                <h1>Contact Us</h1>
+
+                <form>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name">
+                    <br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email">
+                    <br>
+                    <label for="Phone">Phone:</label><br>
+                    <input type="tel" id="phone">
+                    <br>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message"></textarea>
+
+                    <br><br>
+
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </section>
+        </main>
+    </div>
+
+</body>
+
+</html>
