@@ -1,0 +1,29 @@
+.back {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+}
+.bgbox {
+  margin: 20px;
+  width: 50%;
+  height: 200px;
+}
+.back1 {
+  background: url("back_ground.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.back2 {
+  background: rgb(157, 7, 139);
+  background: linear-gradient(
+    227deg,
+    rgba(157, 7, 139, 1) 0%,
+    rgba(140, 55, 19, 1) 100%
+  );
+}
+.back3 {
+  background-color: brown;
+}
