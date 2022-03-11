@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Nunito+Sans&family=Roboto&display=swap");
+
 html {
   scroll-behavior: smooth;
 }
@@ -10,12 +12,14 @@ body {
 #clubs,
 #events,
 #contact {
+  padding-top: 40px;
   min-height: 100vh;
   width: 100%;
 }
 
 #home {
-  position: relative;
+  font-family: "Nunito Sans", sans-serif;
+  padding-top: 50px;
   background: url("./images/background.webp");
   background-size: cover;
 }
@@ -41,3 +45,201 @@ h1 {
 table td {
   padding: 5px;
 }
+
+/* nav bar styling */
+.nav_bar {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f7182b83;
+  height: 25px;
+  font-size: 18px;
+  position: fixed;
+  backdrop-filter: blur(15px);
+}
+
+.nav_bar a {
+  text-decoration: none;
+  color: aliceblue;
+  transition: all 0.2s;
+  margin: 15px;
+}
+.nav_bar .opts {
+  margin-right: 15px;
+}
+.nav_bar a:hover {
+  /* text-decoration: underline blue 1px; */
+  border-bottom: 2px solid rgba(44, 44, 44, 0.589);
+  color: rgb(27, 26, 26);
+  transition: all 0.2s;
+}
+/* nav bar styling */
+
+/* HOME */
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#home h2.topic {
+  font-size: 35px;
+}
+.description {
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-end;
+  font-size: 25px;
+}
+.description h2 {
+  font-family: Montserrat;
+  margin-top: 100px;
+  color: white;
+  letter-spacing: 12px;
+  cursor: default;
+}
+.description p {
+  text-align: right;
+  width: 50%;
+}
+
+/* HOME */
+
+/* CLUBS */
+#clubs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(90deg, #b5c99a, #97a97c);
+}
+#clubs h1 {
+  font-size: 35px;
+  color: white;
+  margin: 15px;
+}
+#clubs ol {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+#clubs ol li h3 {
+  padding: 0;
+}
+#clubs ol li {
+  margin: 15px;
+  background-color: rgb(37, 37, 37);
+  padding: 7px 10px;
+  border-radius: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+#clubs ol li:hover,
+ul li:hover {
+  background-color: aliceblue;
+  color: black;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+#clubs h2.members {
+  margin: 0;
+  margin-top: 50px;
+  font-size: 35px;
+  color: rgb(49, 49, 49);
+}
+
+#clubs ul {
+  margin-left: -55px;
+  font-size: 20px;
+}
+#clubs ul li {
+  margin: 0;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+/* CLUBS */
+
+/* #events */
+#events {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 75%;
+}
+#events table,
+tr,
+th,
+td {
+  border: 1px solid;
+}
+table {
+  width: 100%;
+}
+#events h1 {
+  font-size: 30px;
+}
+
+/* events */
+
+/* contact us */
+
+#contact {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(30, 30, 30);
+}
+#contact h1 {
+  margin: 15px;
+}
+.contact-form {
+  background-color: rgb(20, 20, 20);
+  padding: 30px 50px;
+  border-radius: 15px;
+  /* offset-x | offset-y | blur-radius | color */
+  box-shadow: 8px 8px 5px rgb(10, 10, 10);
+}
+.contact-form form label,
+.contact-form form input,
+.contact-form form textarea {
+  margin: 8px 0px;
+  padding: 0;
+}
+
+.contact-form form textarea {
+  resize: none;
+}
+
+.contact-form form input:focus,
+.contact-form form textarea:focus {
+  background: rgb(211, 211, 209);
+  outline: none;
+}
+
+.contact-form button {
+  background-color: white;
+  padding: 5px 8px;
+  border: none;
+  cursor: pointer;
+  color: black;
+}
+
+.contact-form button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(216, 54, 54);
+}
+/* contact us */

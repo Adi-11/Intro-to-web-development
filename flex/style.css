@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  background-color: grey;
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+.b1 {
+  width: 50px;
+  background-color: tomato;
+}
+.b2 {
+  height: 220px;
+  background-color: blue;
+}
+.b3 {
+  width: 150px;
+  background-color: green;
+}

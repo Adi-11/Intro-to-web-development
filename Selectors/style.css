@@ -1,0 +1,34 @@
+/* normal selector using just tags */
+h1 {
+  color: brown;
+}
+
+h1 + h3 {
+  /* this is the h3 just after h1 */
+  font-size: 25px;
+}
+
+.list {
+  /* using classnames */
+  border: 1px black solid;
+}
+
+#secondList {
+  color: rgb(73, 226, 43);
+}
+
+div.list li.thirdList {
+  font-size: 25px;
+}
+
+ul > a {
+  /* direct child  */
+  text-decoration: none;
+  color: red;
+}
+
+h3,
+div.list li a {
+  font-family: Times, serif;
+  color: coral;
+}
